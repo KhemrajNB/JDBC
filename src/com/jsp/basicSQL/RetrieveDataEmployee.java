@@ -6,13 +6,12 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class RetrieveDataStudent {
-
+public class RetrieveDataEmployee {
 	public static void main(String[] args) {
 		String url = "jdbc:mysql://localhost:3306/javabatch";
 		String username = "root";
 		String password = "root";
-		String query = "SELECT * FROM student";
+		String query = "SELECT * FROM employee";
 		
 		Connection connection = null;
 		
@@ -47,5 +46,4 @@ public class RetrieveDataStudent {
 		
 
 	}
-
 }

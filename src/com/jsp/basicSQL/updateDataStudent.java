@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class updateDataStudent {
+public class UpdateDataStudent {
 
 	public static void main(String[] args) {
 		String url = "jdbc:mysql://localhost:3306/javabatch";
